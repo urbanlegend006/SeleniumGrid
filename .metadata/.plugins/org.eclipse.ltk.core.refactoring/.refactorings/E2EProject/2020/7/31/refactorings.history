@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private void getColumnList(Row row, List&lt;String&gt; columnList)&apos; from &apos;utility.excelReader.getRowList()&apos; to &apos;utility.excelReader&apos;&#x0D;&#x0A;- Original project: &apos;E2EProject&apos;&#x0D;&#x0A;- Method name: &apos;getColumnList&apos;&#x0D;&#x0A;- Destination type: &apos;utility.excelReader&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;getColumnList&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;utility{excelReader.java" name="getColumnList" replace="false" selection="1230 359" stamp="1595990186293" version="1.0" visibility="2"/>
+</session>

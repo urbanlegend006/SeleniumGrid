@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6793" started-at="2021-05-27T23:50:25Z" finished-at="2021-05-27T23:50:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6793" started-at="2021-05-27T23:50:25Z" finished-at="2021-05-27T23:50:32Z">
+      <class name="SeleniumGridTest.GridTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:SeleniumGridTest.GridTest@7f1302d6]" name="setUp" duration-ms="4041" started-at="2021-05-28T05:20:25Z" finished-at="2021-05-28T05:20:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp1()[pri:0, instance:SeleniumGridTest.GridTest@7f1302d6]" name="setUp1" duration-ms="4015" started-at="2021-05-28T05:20:25Z" finished-at="2021-05-28T05:20:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method status="PASS" signature="setUp3()[pri:0, instance:SeleniumGridTest.GridTest@7f1302d6]" name="setUp3" duration-ms="5140" started-at="2021-05-28T05:20:25Z" finished-at="2021-05-28T05:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp3 -->
+        <test-method status="PASS" signature="setUp2()[pri:0, instance:SeleniumGridTest.GridTest@7f1302d6]" name="setUp2" duration-ms="6771" started-at="2021-05-28T05:20:25Z" finished-at="2021-05-28T05:20:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp2 -->
+      </class> <!-- SeleniumGridTest.GridTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

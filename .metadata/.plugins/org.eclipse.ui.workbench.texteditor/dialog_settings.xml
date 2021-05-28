@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="testOutput16"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="testOutput16"/>
+			<item value="testOutput13"/>
+			<item value="testOutput12"/>
+			<item value="stops"/>
+			<item value="system"/>
+			<item value="ArrayList&lt;String&gt;"/>
+			<item value="testFindCardTypeNumbers4"/>
+			<item value="substr"/>
+			<item value="testFindCardTypeNumbers3"/>
+			<item value="br"/>
+			<item value="null"/>
+			<item value="ArrayArrayList&lt;String&gt;"/>
+			<item value="List&lt;String&gt;"/>
+			<item value="Task2.beg"/>
+			<item value="hashcode"/>
+		</list>
+		<list key="replacehistory">
+			<item value="ArrayList&lt;Object&gt;"/>
+			<item value="conversation"/>
+			<item value="ArrayList&lt;String&gt;"/>
+			<item value="split(&quot;\\|&quot;)"/>
+			<item value="//alert"/>
+			<item value="ArrayList"/>
+			<item value="result[stdCount]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1285"/>
+		<item key="DIALOG_Y_ORIGIN" value="138"/>
+		<item key="DIALOG_WIDTH" value="284"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="729"/>
+		<item key="DIALOG_Y_ORIGIN" value="403"/>
+	</section>
+</section>

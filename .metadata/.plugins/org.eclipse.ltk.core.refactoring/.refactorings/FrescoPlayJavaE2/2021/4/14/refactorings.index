@@ -1,0 +1,11 @@
+1617305722654	Rename field 'hocketPlayers'
+1617321561520	Rename method 'getTotalGradePoints'
+1617323089937	Rename method 'getNCCPoints'
+1617332539017	Move compilation units
+1617399543088	Rename type 'Student'
+1617399622413	Infer generic type arguments
+1617399629923	Infer generic type arguments
+1617404628483	Infer generic type arguments
+1617405124906	Infer generic type arguments
+1617414116381	Rename field 'studList'
+1617424839005	Rename type 'selfFinance'

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller">
+    <top>
+        <Label text="Top Label" textFill="darkred" alignment="BASELINE_CENTER"
+                BorderPane.alignment="CENTER"
+               style="-fx-border-color: blue; -fx-border-width: 3; -fx-border-style: dashed">
+            <font>
+                <Font size="24" name="Arial bold"/>
+            </font>
+        </Label>
+    </top>
+
+    <left>
+        <Label text="Left Lable" textFill="blue" alignment="CENTER" BorderPane.alignment="center">
+            <font>
+                <Font size="24" name="Arial bold"/>
+            </font>
+        </Label>
+    </left>
+
+    <right>
+        <Label text="Right Label" textFill="darkmagenta" BorderPane.alignment="center">
+            <font>
+                <Font size="24" name="Arial bold"/>
+            </font>
+        </Label>
+    </right>
+
+
+    <bottom>
+        <Label text="Bottom Label" textFill="green" BorderPane.alignment="CENTER">
+            <font>
+                <Font size="24" name="Arial bold"/>
+            </font>
+        </Label>
+        <HBox spacing="10" alignment="BOTTOM_RIGHT">
+            <Label text="Bottom Label" textFill="green" BorderPane.alignment="CENTER">
+                <font>
+                    <Font size="24" name="Arial bold"/>
+                </font>
+            </Label>
+            <padding>
+                <Insets left="10" right="10" bottom="10"/>
+            </padding>
+            <Button prefWidth="90" text="Okay"/>
+            <Button prefWidth="90" text="Cancel" />
+            <Button prefWidth="90" text="Help" />
+        </HBox>
+    </bottom>
+
+</BorderPane>

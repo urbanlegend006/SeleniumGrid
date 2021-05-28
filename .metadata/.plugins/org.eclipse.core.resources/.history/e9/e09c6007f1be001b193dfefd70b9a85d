@@ -1,0 +1,21 @@
+package StepDefs;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class BackGroundSteps {
+
+	@Given("User opens the browser")
+	public void user_opens_the_browser() {
+	}
+
+	@When("User enters the url {string}")
+	public void user_enters_the_url(String string) {
+	}
+
+	@Then("YouTube home is displayed")
+	public void you_tube_home_is_displayed() {
+	}
+	
+}

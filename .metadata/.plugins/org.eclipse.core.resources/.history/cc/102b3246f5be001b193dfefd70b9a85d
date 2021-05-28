@@ -1,0 +1,18 @@
+package DriverInit;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class properties {
+	
+	private Properties prop;
+	
+	public Properties getPropInstnace() {
+		FileInputStream fis = new FileInputStream(new File("/src/main/resources/config.properties"));
+		prop.load(fis);
+		return prop;
+	}
+	
+	
+	
+}

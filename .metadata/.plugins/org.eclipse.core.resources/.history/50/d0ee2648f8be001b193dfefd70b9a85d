@@ -1,0 +1,27 @@
+package StepDefs;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+
+import DriverInit.DriverBase;
+import Pages.loginPage;
+import io.cucumber.java.en.Given;
+
+public class BackGroundSteps extends DriverBase {
+	
+	private WebDriver driver;
+	private DriverBase dBase;
+	
+	public BackGroundSteps(WebDriver driver, DriverBase dBase) {
+		this.driver = driver;
+		this.dBase = dBase;
+		this.driver = this.dBase.getDriver();
+	}
+	
+	@Given("YouTube home is displayed")
+	public void you_tube_home_is_displayed() {
+		loginPage lp = new loginPage(driver);
+		Assert.assertTrue(lp.isYTLogoExists());
+	}
+	
+}

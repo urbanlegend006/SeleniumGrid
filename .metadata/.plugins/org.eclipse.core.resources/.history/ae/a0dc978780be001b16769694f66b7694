@@ -1,0 +1,39 @@
+package SeleniumGridTest;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.BeforeMethod;
+
+public class GridTest {
+	
+	@BeforeMethod
+	public void setUp() {
+		DesiredCapabilities cap = new DesiredCapabilities();
+		cap.setBrowserName("Chrome");
+		cap.setPlatform(Platform.WIN10);
+		ChromeOptions options = new ChromeOptions();
+		options.merge(cap);
+		
+		String hub = "http://192.168.56.1:4444/wd/hub";
+		
+		try {
+			WebDriver driver = new RemoteWebDriver(new URL(hub), options);
+			driver.get("google.com");
+			System.out.println(driver.getTitle());
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
+	
+}

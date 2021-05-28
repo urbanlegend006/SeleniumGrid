@@ -1,0 +1,10 @@
+package PrallelTestThreads;
+
+public class base {
+	
+	private int a = 1;
+	
+	public int getInt() {
+		return a;
+	}
+}

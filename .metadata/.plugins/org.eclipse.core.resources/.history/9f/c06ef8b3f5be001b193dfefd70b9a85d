@@ -1,0 +1,28 @@
+package Hooks;
+
+import org.openqa.selenium.WebDriver;
+
+import DriverInit.DriverBase;
+import DriverInit.properties;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+
+public class CucumberHooks extends DriverBase {
+	
+	WebDriver driver;
+	DriverBase dBase;
+	
+	
+	@Before
+	public void setUp() {
+		dBase = new DriverBase();
+		dBase.initializeDriver();
+		this.driver = dBase.getDriver();
+		driver.get(properties.getPropInstnace().getProperty("url"));
+	}
+	
+	@After
+	public void tearDown() {
+
+	}
+}

@@ -1,0 +1,4 @@
+java.lang.NullPointerException
+	at DriverInit.properties.getPropInstnace(properties.java:19)
+	at StepDefs.CucumberHooks.setUp(CucumberHooks.java:21)
+

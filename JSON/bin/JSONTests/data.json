@@ -1,0 +1,10 @@
+   {
+     "FavFood": 
+     [
+      {"Name" : "Tacos", "Type" : "Mexican", "Price" : 17},
+      {"Name" : "Roll", "Type" : "Indian", "Price" : 28},
+      {"Name" : "Fuchka", "Type" : "Bengali", "Price" : 5}
+    ]
+   }
+
+
