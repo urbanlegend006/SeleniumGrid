@@ -10,7 +10,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 
 public class GridTest {
-	
+	//Testing Grid
 	@Test
 	public void setUp() {
 		DesiredCapabilities cap = new DesiredCapabilities();
