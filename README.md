@@ -21,21 +21,21 @@ import org.openqa.selenium.Platform; import org.openqa.selenium.WebDriver; impor
 
 public class GridTest {
 
-`@Test`
-`public void setUp() {`
-	`DesiredCapabilities cap = new DesiredCapabilities();`
+@Test
+public void setUp() {
+	DesiredCapabilities cap = new DesiredCapabilities();
 	
-	`/*the nodes will be chosen based on the below properties. Eg - the name of the browser, platform type, etc. Usually, each node will have 5 chrome and firefox instances each and one IE instance. Hence there is very high scalability we will achieve by using Selenium Grid*/`
-	`cap.setBrowserName("chrome"); `
-	`cap.setPlatform(Platform.ANY);`
+	/*the nodes will be chosen based on the below properties. Eg - the name of the browser, platform type, etc. Usually, each node will have 5 chrome and firefox instances each and one IE instance. Hence there is very high scalability we will achieve by using Selenium Grid*/
+	cap.setBrowserName("chrome"); 
+	cap.setPlatform(Platform.ANY);
 
-	`String hub = "http://192.168.56.1:4444/wd/hub"; // this is the hub URL you will get from the CMD.`
-	`try {`
-		`WebDriver driver = new RemoteWebDriver(new URL(hub), cap); // Need to use RemoteWebDriver class to connect to the hub remotely`
-		`driver.get("google.com");`
-		`System.out.println(driver.getTitle());`
-	`} catch (MalformedURLException e) {`
-		`e.printStackTrace();`
-	`}`
-`}`
+	String hub = "http://192.168.56.1:4444/wd/hub"; // this is the hub URL you will get from the CMD.
+	try {
+		WebDriver driver = new RemoteWebDriver(new URL(hub), cap); // Need to use RemoteWebDriver class to connect to the hub remotely
+		driver.get("google.com");
+		System.out.println(driver.getTitle());
+	} catch (MalformedURLException e) {
+		e.printStackTrace();
+	}
+}
 }
