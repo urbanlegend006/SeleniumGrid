@@ -1,9 +1,0 @@
-package SeleniumGridTest;
-
-import org.openqa.selenium.remote.DesiredCapabilities;
-
-public class GridTest {
-	
-	DesiredCapabilities cap = new DesiredCapabilities();
-	
-}
