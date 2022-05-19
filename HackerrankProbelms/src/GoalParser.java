@@ -11,7 +11,7 @@ public class GoalParser {
                 sb.append('o');
                 i++;
             }else if(charArr[i] == '(' || charArr[i] == ')') {
-                
+
             }else{
                 sb.append(charArr[i]);
             }
